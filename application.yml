@@ -5,7 +5,7 @@ eureka:
     hostname: eureka7001.com  # 配置注册中心的主机名
   client:
     register-with-eureka: false  # 是否想注册中心注册自己  自己就是注册中心 不需要注册
-    fetch-registry: false  # 是否需要熊注册中拉取服务 不需要拉取服务
+    fetch-registry: false  # 是否需要向注册中拉取服务 不需要拉取服务
     service-url:
       defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/ # 暴露自己服务地址
   server:
