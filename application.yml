@@ -11,3 +11,5 @@ eureka:
   server:
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 2000
+config:
+  info: 'master branch,springcloud-config/config-dev.yml version=1'
